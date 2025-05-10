@@ -71,6 +71,8 @@ const LoginForm = () => {
         password
       });
       
+      //console.log(response.data);
+      
       // Store user data in localStorage
       localStorage.setItem('user', JSON.stringify(response.data));
       

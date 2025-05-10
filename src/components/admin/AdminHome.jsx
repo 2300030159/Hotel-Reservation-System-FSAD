@@ -1,7 +1,10 @@
 import React from 'react'
+import Dashboard from './Dashboard'
 
 export default function AdminHome() {
   return (
-    <div>AdminHome</div>
+    <div>
+      <Dashboard/>
+    </div>
   )
 }
